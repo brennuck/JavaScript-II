@@ -1,7 +1,18 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function school() {
+  console.log(`I am going to school!`);
+  const message = "Go to lunch!";
+  debugger;
 
-
+function students() {
+  const studentSaying = "We love school!";
+  console.log(`${studentSaying} But okay we will go: ${message}`);
+  debugger;
+  }
+  students();
+}
+school();
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
