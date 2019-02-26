@@ -3,12 +3,10 @@
 function school() {
   console.log(`I am going to school!`);
   const message = "Go to lunch!";
-  debugger;
 
 function students() {
   const studentSaying = "We love school!";
   console.log(`${studentSaying} But okay we will go: ${message}`);
-  debugger;
   }
   students();
 }
