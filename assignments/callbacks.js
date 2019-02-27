@@ -68,7 +68,9 @@ function contains(item, list, cb) {
   }
   return cb(false);
 }
-
+contains(items, "Pencil",function(cb) {
+  console.log(cb);
+});
 /* STRETCH PROBLEM */
 
 function removeDuplicates(array, cb) {
